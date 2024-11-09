@@ -16,7 +16,6 @@
     <link rel="stylesheet" href="{{ asset('assets/css') }}/login.css">
 
     <title>Login | Manajemen</title>
-    <title></title>
 </head>
 
 <body>

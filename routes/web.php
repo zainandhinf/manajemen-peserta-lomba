@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\LoginController;
+use App\Http\Controllers\RouteController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,8 +15,11 @@ use App\Http\Controllers\LoginController;
 |
 */
 
-Route::get('/', [LoginController::class, 'login']);
 
 
 // login
 Route::post('/login',[LoginController::class, 'aksilogin']);
+
+//route
+Route::get('/', [RouteController::class, 'login']);
+Route::get('/dashboard',[RouteController::class, 'dashboard']);
