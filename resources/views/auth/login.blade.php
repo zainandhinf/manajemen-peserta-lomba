@@ -28,7 +28,7 @@
 
     <section class="main">
         <div class="login-container shadow">
-            <p class="title">LOGIN</p>
+            <p class="title">MANAJEMEN PESERTA LOMBA</p>
             <div class="separator mt-0"></div>
             <p class="welcome-message">Please, provide login credential to proceed and have access to all our services
             </p>
