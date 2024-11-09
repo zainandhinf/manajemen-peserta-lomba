@@ -23,3 +23,6 @@ Route::post('/login',[LoginController::class, 'aksilogin']);
 //route
 Route::get('/', [RouteController::class, 'login']);
 Route::get('/dashboard',[RouteController::class, 'dashboard']);
+
+// logout
+Route::post('/logout',[LoginController::class, 'aksilogout']);

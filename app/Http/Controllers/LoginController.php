@@ -23,4 +23,16 @@ class LoginController extends Controller
 
         return back()->with('gagallogin', '')->withInput();
     }
+
+    public function aksilogout(Request $request) {
+        Auth::logout();
+
+        $request->session()->invalidate();
+
+        $request->session()->regenerateToken();
+
+        return redirect()->intended('/');
+    }
+
+
 }
