@@ -15,3 +15,7 @@ use App\Http\Controllers\LoginController;
 */
 
 Route::get('/', [LoginController::class, 'login']);
+
+
+// login
+Route::post('/login',[LoginController::class, 'aksilogin']);

@@ -33,7 +33,7 @@
             <p class="welcome-message">Please, provide login credential to proceed and have access to all our services
             </p>
 
-            <form action="" method="post" class="login-form">
+            <form action="/login" method="post" class="login-form">
                 @csrf
                 <div class="form-control">
                     <input type="text" placeholder="Username" name="username" required>
@@ -48,7 +48,7 @@
             </form>
         </div>
     </section>
-    
+
 </body>
 
 </html>
